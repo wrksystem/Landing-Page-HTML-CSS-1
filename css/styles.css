@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    background-color: blueviolet;    
+}
+
+.sidebar-pos {
+    position: absolute;
+}
+
+.img-sidebar img {
+    width: 20%;
+    max-width: 100%;
+}
